@@ -988,7 +988,8 @@ a .skate:hover.ani{
 }
 a .skate:hover .txt.movebg:after{
 	color: #b3b3b3;
-	content:'Skateboarding  滑 板';
+	/*content:'Skateboarding  滑 板';*/
+	content:'Skateboarding  \u6ed1\u0020\u677f';
 	bottom:-100px;
 	transition: .3s linear;
 }
