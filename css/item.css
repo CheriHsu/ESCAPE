@@ -60,7 +60,6 @@
     transition: .5s;
     z-index: 1;
     opacity: 0; 
-
 }
 .focusPhoto:hover.focusPhoto:before{
 	content: url(../images/zoomIn.svg);
