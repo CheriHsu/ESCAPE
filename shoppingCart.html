@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>::ESCAPE 逃避現實::</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 content="width=1024">
+	<title>購物車明細</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="mage/x-icon" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/shoppingCart.css">
+	<link rel="stylesheet" href="css/sweetalert.css">
+	<script src="js/sweetalert-dev.js"></script>
+	<script src="js/shoppingCart.js"></script>
+
+</head>
+<body  style="overflow: visible;">
+	<div id="myCart">
+	<h1>
+		ESCAPE購物車列表
+	</h1>
+	<header id="cartList">
+		<table>
+			<tr class="itemHead" >
+				<td style="width:400px;min-width: 189px;">商品</td>
+				<td style="width:65px;min-width: 60px;">價格$</td>
+				<td style="width:65px;min-width: 51px;">顏色</td>
+				<td style="width:65px;min-width: 51px;">尺寸</td>
+				<td style="width:65px;min-width: 51px;">數量</td>
+				<td style="width:65px;min-width: 60px;">小計</td>
+				<td style="width:65px;min-width: 51px;">移除</td>
+			</tr>
+		</table>
+		<!--動態新增-->
+
+	</header>            
+	<footer class="subTotal" style="text-align:right;">
+
+		總金額 : $ <span id="subtotal">0</span>
+
+		<div class="footerBtn">
+			<a href="index.html">
+				<input type="submit" value="繼續購物" id="continueShop">
+			</a>
+			</input>
+			<input type="submit" value="清除所有商品" id="clearCart"></input>
+			<input type="submit" value="送出訂單" id="booking"></input>
+		</div>
+
+	</footer>
+	</div>
+
+<!-- <script src="js/mobileToggleBtn.js"></script> -->
+<script>
+var el = document.querySelector('body');
+	el.addEventListener('click',function(e){
+		console.log(e.target);
+		console.log(e.target.value);
+		console.log(e);
+	},false)
+</script>
+</body>
+</html>

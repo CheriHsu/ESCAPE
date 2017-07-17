@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>::ESCAPE 逃避現實::</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 content="width=1024">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css?02">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<link rel="stylesheet" type="text/css" href="css/item.css">
+	<link rel="stylesheet" href="css/item_list.css">
+	<link rel="stylesheet" href="css/plan.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+
+	<script>
+
+		//google cse 搜尋後結果預設修正
+		 function change(){
+		 	document.getElementById("gsc-i-id1").setAttribute("placeholder", "商品搜尋"); 
+		 	document.getElementById("gsc-i-id2").setAttribute("placeholder", "商品搜尋");
+
+		 	document.querySelector(".gsc-adBlock").style.display = "none"; //隱藏廣告
+		 	var x = document.querySelectorAll(".gs-richsnippet-box"); 	//隱藏圖片資訊
+			var i;
+				for (i = 0; i < x.length; i++) {
+				    x[i].style.display = "none";
+				}
+		 	
+		 }
+
+		//google cse 搜尋範圍設定
+		  (function() {
+		    var cx = '001083044147874348520:2ldqxuielmo';
+		    var gcse = document.createElement('script');
+		    gcse.type = 'text/javascript';
+		    gcse.async = true;
+		    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(gcse, s);
+		  })();
+
+	</script>
+</head>
+<body onload="change();" style="overflow: visible;">
+<!-- <div class="registerBg"></div> -->
+<!-- <div class="loginBg"></div> -->
+
+<!-- login========================================= -->
+
+<section class="container login">
+	<div class="row">
+		<div class="login flr">
+			
+				<ul class="txt black">
+					<li><a id="register" href="javascript:;">註冊</a></li>
+					<li><a id="login" href="javascript:;">會員登錄<i class="fa fa-user-o" aria-hidden="true"></i>	</a></li>
+					<li><a id="checkCart" href="shoppingCart.html">購物車<i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+					<div class="search">
+						<gcse:search></gcse:search>
+						<!-- <input type="text" name="search" placeholder="商品搜尋..." class="search"> -->
+						<!-- <a href="javascript:;">
+						<i class="fa fa-search" aria-hidden="true"></i></a> -->
+					</div>
+				</ul>
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+<!-- nav========================================= -->
+
+<nav class="nav">
+	<div class="w960">
+
+			<input type="checkbox" name="" id="mm">
+			
+			
+			<div class="col-xs-12 menubg">
+				<div class="box">
+						<a href="index.html">
+						<img class="logo" src="images/logo.png">
+						</a>
+				</div>
+
+				<label for="mm" class="toggle-btn" for="">
+					<span class="bar1"></span>
+					<span class="bar2"></span>
+					<span class="bar3"></span>
+				</label>
+				
+			</div>	
+
+			<ul class="mu">
+				<li class="searchli">
+					<gcse:search></gcse:search>
+					<!-- <input type="text" name="search" placeholder="商品搜尋..." class="search">
+					<a href="javascript:;">
+					<i class="fa fa-search" aria-hidden="true"></i></a> -->
+					
+				</li>
+
+					<li class="btn1">
+					<a href="javascript:;" id="btn1a">運動商品</a>
+						<ul class="menulist">
+							<li><a href="skate.html" class="btnfixed">滑板</a></li>
+							<li><a href="javascript:;" class="btnfixed">舞蹈</a></li>
+							<li><a href="javascript:;" class="btnfixed">滑雪</a></li>
+							<li><a href="javascript:;" class="btnfixed">健行</a></li>
+							<li><a href="javascript:;" class="btnfixed">沙灘</a></li>
+							<li><a href="javascript:;" class="btnfixed">衝浪</a></li>
+						</ul>
+					</li>
+				<a href="on_sale.html" class="btn2"><li>超值好康</li></a>
+				<a href="plan.html" class="btn3"><li >逃避計畫</li></a>
+				<a href="about.html" class="btn4"><li >關於ESCAPE</li></a>
+				<li class="hiddenbtn">
+				<a href="javascript:;"><div class="btn5">
+					會員登入<i class="fa fa-user-o" aria-hidden="true"></i>
+				</div></a>
+				<a id="checkCart" href="shoppingCart.html"><div class="btn6">
+					購物車<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+				</div></a>
+				</li>
+			</ul>
+			
+			
+			<div class="clear"></div>
+			
+	</div>
+
+</nav>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+<!-- ======content================================= -->
+
+<section class="containCenter">
+	<section class="planto container">
+		<article class="row">
+
+			<div class="col-xs-12 col-sm-4 pic">
+				<img src="images/plan2.jpg">
+			</div>
+
+			<div class="col-xs-12 col-sm-8 ">
+			<h4>滑雪必備攻略！去日本滑雪前，需要注意的都在這裡！</h4>
+			<div class="hr"></div>
+			<p class="plantxt">又要到日本的滑雪季，作為冬季旅遊的一大項目，每年都有許多滑雪愛好者專程前往日本體驗最高級別的滑雪。如果你也對滑雪感興趣，那麼，事先的準備也是必要的。</p>
+			<div class="btn">繼續看 >></div>
+			</div>
+			
+		</article>
+	</section>
+	<div class="clear"></div>
+	<section class="planto2 container">
+		<article class="row">
+
+			<div class="col-xs-12 col-sm-4 pic">
+				<img src="images/plan02.jpg">
+			</div>
+
+			<div class="col-xs-12 col-sm-8 txxt">
+			<h4>十個人生必去的滑板城市</h4>
+			<div class="hr"></div>
+			<p class="plantxt">滑板是現代年輕人一種顯性的自我表達方式，其中的街滑則是他們在建築、坡路和人行道間 的障礙發揮創意和追求技術精熟的形式；因此城市的擴展與年輕人無法安於現狀、尋求刺激的心靈便是構成滑板人所鍾愛的該文化起源。話說至此，我們自世界各地 的滑板城市之中嚴選出十個必去的城市，適合各種街滑風格且不加油添醋地推薦為何它們是你規劃滑板之旅時可以列入考慮的好地方。</p>
+			<div class="btn">繼續看 >></div>
+			</div>
+			
+		</article>
+	</section>
+	<div class="clear"></div>
+	<section class="planto3 container">
+		<article class="row">
+
+			<div class="col-xs-12 col-sm-4 pic">
+				<img src="images/plan03.jpg">
+			</div>
+
+			<div class="col-xs-12 col-sm-8 ">
+			<h4>衝浪初學者不可錯過的7大基本常識</h4>
+			<div class="hr"></div>
+			<p class="plantxt">夏季已經來臨了，天氣開始變得酷熱難耐了，估計很多朋友正在計劃去海邊玩水消暑，而海浪也已經進入了大浪期，也是屬於初學者的浪期。很多衝浪的初學者都是這個季節接觸到衝浪，但是一些正確的衝浪禮儀與規則大家未必很清楚，今天就讓小編為大家普及一下衝浪常識與規則。</p>
+			<div class="btn">繼續看 >></div>
+			</div>
+			
+		</article>
+	</section>
+	<div class="clear"></div>
+</section>
+
+<!-- footer========================================= -->
+<footer class="box footer fll">
+	<div class="w960">
+		<div class="box">
+				<div class="c349118">
+				<a href="index.html">
+				<img class="logo chinese" src="images/logo_ch.png">
+				</a></div>
+		</div>
+	
+		<div class="smallnav">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4 col-sm-3 link fll">
+						<h5>運動商品</h5>
+						<div class="ma">
+							<div class="stree link fll">
+								<ul>
+									<!-- <li class="hj">街頭運動</li> -->
+									<li><a href="skate.html">滑板</a></li>
+									<li><a href="javascript:;">舞蹈</a></li>
+								</ul>
+							</div>
+											
+							<div class="outdoo link fll">
+								<ul>
+									<!-- <li class="hj">戶外運動</li> -->
+									<li><a href="javascript:;">滑雪</a></li>
+									<li><a href="javascript:;">健行</a></li>
+								</ul>	
+							</div>
+											
+							<div class="water link fll">
+								<ul>
+									<!-- <li class="hj">水上運動</li> -->
+									<li><a href="javascript:;">沙灘</a></li>
+									<li><a href="javascript:;">衝浪</a></li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				
+					<div class="col-xs-4 col-sm-2 sales link fll">
+						<h5><a href="on_sale.html">超值好康</a></h5>
+						<h5><a href="plan.html">逃避計畫</a></h5>
+					</div>
+
+					<div class="col-xs-4 col-sm-2 about link fll">
+						<h5><a href="about.html">關於ESCAPE</a></h5>
+						<ul>
+							<li><a href="about.html#branch">門市資訊</a></li>
+							<li><a href="about.html#contacts">聯絡我們</a></li>
+						</ul>
+					</div>
+
+					<div class="col-sm-1 space"></div>
+
+					<div class="col-xs-4 col-sm-2 fb link fll y">
+						<h5>加入社群</h5>
+						<a href="javascript:;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+						<a href="javascript:;"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+					
+					<div class="col-xs-4 col-sm-2 service link fll y">
+						<p><a href="javascript:;">會員權益</a></p>
+						<p><a href="javascript:;">購物流程</a></p>
+						<p><a href="javascript:;">常見問題</a></p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</footer>
+
+
+</div>
+
+
+
+
+<script src="js/mobileToggleBtn.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>::ESCAPE 逃避現實::</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 content="width=1024">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css?02">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<link rel="stylesheet" href="css/item_list.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+	
+	<script>
+
+		//google cse 搜尋後結果預設修正
+		 function change(){
+		 	document.getElementById("gsc-i-id1").setAttribute("placeholder", "商品搜尋"); 
+		 	document.getElementById("gsc-i-id2").setAttribute("placeholder", "商品搜尋");
+
+		 	document.querySelector(".gsc-adBlock").style.display = "none"; //隱藏廣告
+		 	var x = document.querySelectorAll(".gs-richsnippet-box"); 	//隱藏圖片資訊
+			var i;
+				for (i = 0; i < x.length; i++) {
+				    x[i].style.display = "none";
+				}
+		 	
+		 }
+
+		//google cse 搜尋範圍設定
+		  (function() {
+		    var cx = '001083044147874348520:2ldqxuielmo';
+		    var gcse = document.createElement('script');
+		    gcse.type = 'text/javascript';
+		    gcse.async = true;
+		    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(gcse, s);
+		  })();
+
+	</script>
+
+
+
+</head>
+
+<body onload="change();" style="overflow: visible;">
+<!-- <div class="registerBg"></div> -->
+<!-- <div class="loginBg"></div> -->
+
+<div class="overflowhidden">
+	
+
+
+<!-- login========================================= -->
+
+<section class="container login">
+	<div class="row">
+		<div class="login flr">
+			
+				<ul class="txt black">
+					<li><a id="register" href="javascript:;">註冊</a></li>
+					<li><a id="login" href="javascript:;">會員登錄<i class="fa fa-user-o" aria-hidden="true"></i>	</a></li>
+					<li><a id="checkCart" href="shoppingCart.html">購物車<i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+					<div class="search">
+						<gcse:search></gcse:search>
+						<!-- <input type="text" name="search" placeholder="商品搜尋..." class="search"> -->
+						<!-- <a href="javascript:;">
+						<i class="fa fa-search" aria-hidden="true"></i></a> -->
+					</div>
+				</ul>
+			
+		</div>
+	</div>
+</section>
+	
+	
+	
+	
+	
+<!-- nav========================================= -->
+
+<nav class="nav">
+	<div class="w960">
+
+			<input type="checkbox" name="" id="mm">
+			
+			
+			<div class="col-xs-12 menubg">
+				<div class="box">
+						<a href="index.html">
+						<img class="logo" src="images/logo.png">
+						</a>
+				</div>
+
+				<label for="mm" class="toggle-btn" for="">
+					<span class="bar1"></span>
+					<span class="bar2"></span>
+					<span class="bar3"></span>
+				</label>
+				
+			</div>	
+
+			<ul class="mu">
+				<li class="searchli">
+					<gcse:search></gcse:search>
+					<!-- <input type="text" name="search" placeholder="商品搜尋..." class="search">
+					<a href="javascript:;">
+					<i class="fa fa-search" aria-hidden="true"></i></a> -->
+					
+				</li>
+
+					<li class="btn1">
+					<a href="javascript:;" id="btn1a">運動商品</a>
+						<ul class="menulist">
+							<li><a href="skate.html" class="btnfixed">滑板</a></li>
+							<li><a href="javascript:;" class="btnfixed">舞蹈</a></li>
+							<li><a href="javascript:;" class="btnfixed">滑雪</a></li>
+							<li><a href="javascript:;" class="btnfixed">健行</a></li>
+							<li><a href="javascript:;" class="btnfixed">沙灘</a></li>
+							<li><a href="javascript:;" class="btnfixed">衝浪</a></li>
+						</ul>
+					</li>
+				<a href="on_sale.html" class="btn2"><li>超值好康</li></a>
+				<a href="plan.html" class="btn3"><li >逃避計畫</li></a>
+				<a href="about.html" class="btn4"><li >關於ESCAPE</li></a>
+				<li class="hiddenbtn">
+				<a href="javascript:;" id="login"><div class="btn5">
+					會員登入<i class="fa fa-user-o" aria-hidden="true"></i>
+				</div></a>
+				<a id="checkCart" href="shoppingCart.html"><div class="btn6">
+					購物車<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+				</div></a>
+				</li>
+			</ul>
+			
+			
+			<div class="clear"></div>
+			
+	</div>
+
+</nav>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+
+
+<!-- banner========================================= -->
+
+
+
+	<div class="box banner" id="bannerbg">
+			<div class="w960">
+				<div class="textcenter1">
+					<p>入/冬/新/品/上/市</p>
+				</div>
+				<span></span>
+						
+				<div class="model">
+					<img id="man" src="images/man.png">
+					<img id="female" src="images/female.png">
+				</div>
+			</div>	
+	</div>
+
+
+
+
+
+
+
+
+
+
+<!-- sports========================================= -->
+<div class="sports">
+	<div class="container p10">
+		
+			
+			<div class="sport bg">
+				<div class="h1t sport">
+					<h1>SPORTS</h1>
+					<div class="smtxt">
+						<h4 class="en">PRODUCTS</h4>
+						<h4 class="ch">運動商品</h4>
+					</div>
+				</div>
+				
+				<div class="category">
+					<div class="street">
+						<h4>街頭運動</h4>
+		
+						<a href="skate.html">
+						<div class="ani skate">
+							<p class="txt movebg"></p>
+							<img class="skater" src="images/skate366.png"></div></a>
+		
+						<a href="javascript:;">	
+							<div class="ani dance">
+							<p class="txt movebg"></p>
+							<img class="dancer" src="images/dance.png">
+						</div></a>
+					</div>
+		
+					<div class="outdoor">
+						<h4>戶外運動</h4>
+		
+						<a href="javascript:;">
+						<div class="ani hike">
+							<p class="txt movebg"></p>
+							<img class="hiker" src="images/hike.PNG"></div></a>
+		
+						<a href="javascript:;">	
+						<div class="ani ski">
+							<p class="txt movebg"></p>
+							<img class="skir" src="images/ski.png"></div></a>
+					</div>
+					<div class="shore">
+						<h4>水岸運動</h4>
+		
+						<a href="javascript:;">
+						<div class="ani beach">
+							<p class="txt movebg"></p>
+							<img class="beacher" src="images/beachcouple.png"></div></a>
+		
+						<a href="javascript:;">
+						<div class="ani surf">
+							<p class="txt movebg"></p>
+							<img class="surfer" src="images/surf.png"></div></a>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- new========================================= -->
+
+
+<div class="box new">
+	<div class="bgfull">
+	<div class="w960">
+		<div class="news bg">
+			<div class="h1t new">
+				<h1>NEW</h1>
+				<div class="smtxt">
+					<h4 class="en">ARRIVALS</h4>
+					<h4 class="ch">新品上市</h4>
+				</div>
+			</div>
+
+			<div class="products">
+				<div class="w960">
+					<a href="skate.html">
+						<div class="product fll wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.5s" id="np1">
+							<img src="images/newp4.png">
+						<p>Klarwein聯名滑板</p>
+						</div>
+					</a>
+
+					<a href="skate.html">
+						<div class="product fll wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.5s" id="np2">
+							<img src="images/p2.png">
+						<p>素色圓領短T男女款</p>
+						</div>
+					</a>
+
+					<a href="skate.html">
+						<div class="product fll wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.5s" id="np3">
+							<img src="images/newp3.png">
+						<p>男款帆布休閒鞋</p>
+						</div>
+					</a>
+
+					<a href="skate.html">
+						<div class="product fll wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.5s" id="np4">
+							<img src="images/glasses.png">
+						<p>防雪防霧盲護目鏡</p>
+						</div>
+					</a>
+
+				</div>
+			</div>
+
+		</div>
+		<div class="clear"></div>
+	</div>	
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- sale========================================= -->
+
+
+<div class="box sale">
+	<div class="bgfull">
+		<div class="w960">
+			<div class="sales bg">
+				<div class="h1t sale">
+					<div class="smtxt">
+						<h4 class="en">ON</h4>
+						<h4 class="ch">超值好康</h4>
+					</div>
+					<h1>SALE</h1>
+				</div>
+
+				<div class="products">
+					<div class="item">
+
+
+						<a href="skate.html"><div class="product fll wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.5s" id="sp1">
+							<img src="images/p2-1.png">
+							<p>防風連帽男款外套</p>
+							<sub>$</sub><span class="price">2490</span></div></a>
+						
+						<a href="skate.html"><div class="product fll wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.5s" id="sp2">
+							<img src="images/p4.png">
+							<p>防水布後背包</p>
+							<sub>$</sub><span class="price">1200</span></div></a>
+						<a href="skate.html"><div class="product fll wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.5s" id="sp3">
+							<img src="images/p1-1s.png">
+							<p>長袖格紋男款襯衫</p>
+							<sub>$</sub><span class="price">780</span></div></a>
+						
+						<a href="skate.html"><div class="product fll wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.5s" id="sp4">
+							<img src="images/p3.png">
+							<p>經典色馬丁靴鞋男款</p>
+							<sub>$</sub><span class="price">5888</span></div></a>
+						
+						
+						
+					</div>
+				</div>
+			</div>
+				
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+<!-- plan========================================= -->
+
+
+<div class="box plan">
+	<div class="project bg">
+		<div class="h1t plan1">
+			<div class="smtxt">
+				<h4 class="en">ESCAPE</h4>
+				<h4 class="ch">逃避計畫</h4>
+				<h1>PLAN</h1>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 textbox">
+			<h4>日本滑雪必備攻略！</h4>
+			<div class="hr"></div>
+			<p>又要到日本的滑雪季，作為冬季旅遊的一大項目，每年都有許多滑雪愛好者專程前往日本體驗最高級別的滑雪。如果你也對滑雪感興趣，那麼，事先的準備也是必要的。</p>
+			<a href="plan.html">
+			<div class="btn">看更多 >></div>
+			</a>
+		</div>	
+	</div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+<!-- stores========================================= -->
+
+<div class="fulid fll">
+	<div class="container">
+		<div class="row">
+
+			<div class="box stores">
+				<h2 class="titles">門市資訊</h2>
+
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 wow fadeIn" data-wow-delay="0s" data-wow-duration="0.5s">
+							<a class="item-col3 " href="about.html#branchn">
+								<div class="title">
+									<p>北部</p>
+									<!-- <p>信義旗艦店</p> -->
+								</div>
+								<div class="nstore"></div>
+							</a>						
+						</div>
+						
+						<div class="col-xs-12 col-sm-4 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+							<a class="item-col3" href="about.html#branchc">
+								<div class="title">
+									<p>中部</p>
+									<!-- <p>台中勤美店</p> -->							
+								</div>
+								<div class="cstore"></div>	
+							</a>
+						</div>
+
+						<div class="col-xs-12 col-sm-4 wow fadeIn" data-wow-delay="0.5s" data-wow-duration="0.5s">
+							<a class="item-col3" href="about.html#branchs">
+								<div class="title">
+									<p>南部</p>
+									<!-- <p>高雄愛河店</p> -->	
+								</div>	
+								<div class="sstore"></div>
+							</a>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="clear"></div>
+
+
+
+
+
+
+<!-- footer========================================= -->
+<footer class="box footer fll">
+	<div class="w960">
+		<div class="box">
+				<div class="c349118">
+				<a href="index.html">
+				<img class="logo chinese" src="images/logo_ch.png">
+				</a></div>
+		</div>
+	
+		<div class="smallnav">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4 col-sm-3 link fll">
+						<h5>運動商品</h5>
+						<div class="ma">
+							<div class="stree link fll">
+								<ul>
+									<!-- <li class="hj">街頭運動</li> -->
+									<li><a href="skate.html">滑板</a></li>
+									<li><a href="javascript:;">舞蹈</a></li>
+								</ul>
+							</div>
+											
+							<div class="outdoo link fll">
+								<ul>
+									<!-- <li class="hj">戶外運動</li> -->
+									<li><a href="javascript:;">滑雪</a></li>
+									<li><a href="javascript:;">健行</a></li>
+								</ul>	
+							</div>
+											
+							<div class="water link fll">
+								<ul>
+									<!-- <li class="hj">水上運動</li> -->
+									<li><a href="javascript:;">沙灘</a></li>
+									<li><a href="javascript:;">衝浪</a></li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				
+					<div class="col-xs-4 col-sm-2 sales link fll">
+						<h5><a href="on_sale.html">超值好康</a></h5>
+						<h5><a href="plan.html">逃避計畫</a></h5>
+					</div>
+
+					<div class="col-xs-4 col-sm-2 about link fll">
+						<h5><a href="about.html">關於ESCAPE</a></h5>
+						<ul>
+							<li><a href="about.html#branch">門市資訊</a></li>
+							<li><a href="about.html#contacts">聯絡我們</a></li>
+						</ul>
+					</div>
+
+					<div class="col-sm-1 space"></div>
+
+					<div class="col-xs-4 col-sm-2 fb link fll y">
+						<h5>加入社群</h5>
+						<a href="javascript:;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+						<a href="javascript:;"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+					
+					<div class="col-xs-4 col-sm-2 service link fll y">
+						<p><a href="javascript:;">會員權益</a></p>
+						<p><a href="javascript:;">購物流程</a></p>
+						<p><a href="javascript:;">常見問題</a></p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</footer>
+
+
+</div>
+
+<script src="js/index.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/mobileToggleBtn.js"></script>
+<script>
+	wow = new WOW(
+	  {
+	    animateClass: 'animated',
+	    offset:       100,
+	    callback:     function(box) {
+	      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+	    }
+	  }
+	);
+	wow.init();
+	document.getElementById('moar').onclick = function() {
+	  var section = document.createElement('section');
+	  section.className = 'section--purple wow fadeInDown';
+	  this.parentNode.insertBefore(section, this);
+	};
+</script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+.fader {
+    position: relative;
+    /*padding-top: 4%;*/
+    font-family: "futura", arial;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    z-index: 0;
+}
+
+.fader .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100;
+    z-index: 1000;
+    opacity: 0;
+}
+
+.fader img.slide {
+    height: auto;
+}
+
+.fader .prev,
+.fader .next {
+    position: absolute;
+    height: 80px;
+    line-height: 55px;
+    width: 30px;
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    top: 20%;
+    left: 10%;
+    z-index: 1000;
+    /*margin-top: -25px;*/
+    cursor: pointer;
+    opacity: .7;
+    transition: all 150ms;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
+
+.fader .prev:hover,
+.fader .next:hover {
+    opacity: 1;
+}
+
+.fader .next {
+    left: auto;
+    right: 10%;
+}
+
+.fader .pager_list {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    line-height: 40px;
+    bottom: 20%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.fader .pager_list li {
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    margin: 0 7px;
+    background: #fff;
+    opacity: .7;
+    text-indent: -9999px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 150ms;
+}
+.fader .pager_list li:hover,
+.fader .pager_list li.active {
+    opacity: 1;
+}
+
+.pager_list .page{
+    padding: 0px;
+}
+.fader_controls .page{
+    padding: 0;
+}
+.fader_controls{
+    position: initial;
+    top: 23%;
+}
+/*mobile*/
+@media screen and (max-width:767px) and (max-width:1199px){
+.fader{
+       padding-top: 15%;
+        height: 200px;
+        }
+ .fader .prev, .fader .next {
+            top: 40%;
+        }
+
+
+}
+
+@media screen and (min-width:1200px) {
+    .fader .slide {
+    top: -22%;
+    }
+    .fader .prev,
+    .fader .next {
+    top: 40%;
+    }
+}

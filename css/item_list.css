@@ -1,0 +1,481 @@
+/**{outline: 1px solid #0ff; }*/
+a{
+	color: #fff;
+}
+.banner2{
+	width:100%;
+	height: 515px;
+	transform: skewY(3deg);
+	background:url(../images/skatebg2.jpg) no-repeat center 35%  /100% 60% ;
+	text-align: center;
+	position: relative;
+	z-index: -1;
+	margin-top: -4px;
+	}
+
+	.bread {
+	width:100%;
+	height: 27px;
+	background-color: #ba1b21;
+	color: #fff;
+	padding-top: 8px;
+	/*box-shadow: 1px 1px 10px rgba(0,0,0,0.7);*/
+	margin: auto;
+	}
+
+	.list_bg{
+	width: 100%;
+	height: 100%;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background-color: #1f1f1f;
+	/*padding-left: 5%;
+	padding-right: 5%;*/
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+	text-align: center;
+    box-sizing: border-box;
+    margin-top: -19px;
+	}
+	.right_content{
+	/*width: 680px*/;
+    /*padding-left: 40px;*/
+    padding-top: 30px;
+    padding-bottom: 26px;
+	background-color: #fff;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+	}
+	
+
+
+#slogan p{
+	font-size: 35px;
+	font-weight: lighter;
+	margin: 10px;
+	text-align: right;
+}
+#slogan .b{
+	font-size: 25px;
+	font-weight: lighter;
+	margin: 10px;
+	text-align: right;
+	letter-spacing: 1px;
+	color: #F5DE58;
+}
+.b:nth-child(2){
+	margin-bottom: 20px;
+}
+
+
+path{
+	color-profile: #fff;
+}
+
+
+@media screen and (min-width:768px){
+	.col-sm-3{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#bn-skater{
+	position: absolute;
+	top: 20px;
+	right: 20%;
+	float: left;
+	}
+	#slogan{
+	width: 300px;
+	
+	color: #fff;
+	font-size: 20px;
+	/*margin: auto;*/
+	margin-top: 149px;
+	margin-left: 70px;
+	float: left;
+	position: absolute;
+	/*top: 45px;*/
+	/*left: 100px;*/
+	}
+	.filtericon{
+	width: 20px;
+	height: 20px;
+	display: none;
+	}
+	.padding10{			/*bread*/
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ba1b21;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+	display: block;
+	}
+	.searchicon i{
+	position: absolute;
+	right: 18px;
+	top: 19px;
+	}
+	.searchicon{
+	position: relative;
+	display: block;
+	}
+
+	.products .productt{
+	width: 100%;
+	/*height: 328px;*/
+	border:1px solid #ccc;
+	margin-top: 20px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	}
+	.right_content .productt{
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	}
+
+	.products .productt.new:before{
+    content: "New";
+    position: absolute;
+    padding: 5px;
+    background-color: #ffe157;
+    color: #ff4343;
+    box-shadow: 0px 2px 10px rgba(125,125,125,.8);
+    font-weight: bold;
+    width: 85px;
+    height: 10px;
+    transform: rotate(-45deg);
+    font-size: 11px;
+    z-index: 100;
+    left: -26px;
+    top: 8px;
+	}
+
+	.products .productt.sale:before{
+    content: "Sale";
+    position: absolute;
+    padding: 5px;
+    background-color: #ff4343;
+    color: #ffe157;
+    box-shadow: 0px 2px 10px rgba(125,125,125,.8);
+    font-weight: bold;
+    width: 85px;
+    height: 10px;
+    transform: rotate(-45deg);
+    font-size: 11px;
+    z-index: 100;
+    left: -26px;
+    top: 8px;
+	}
+
+}
+
+
+.content input#ff{
+	position: relative;
+	top: -725px;
+	z-index: -10;
+	}
+
+
+/*mobile*/
+@media screen and (max-width:767px) and (max-width:977px){
+	.container {
+    width: 100%;
+	}
+	.banner2{
+	background:url(../images/skatebg2.jpg) no-repeat center 47% /100% 45%;
+	height: 545px;
+	transform: skewY(3deg);
+	}
+	.right_content,.list_bg,.bread {
+	box-shadow: 0px 0px 0px rgba(0,0,0,0);
+	}
+	#slogan{
+	width: 160px;
+	color: #fff;
+	opacity: 0.8;
+    font-size: 20px;
+    /* margin: auto; */
+    margin-top: 167px;
+    margin-left: 95px;
+    float: left;
+    line-height: 30px;
+	position: absolute;
+	top: -5px;
+	left: -55px;
+	}
+	#bn-skater{
+	width: 72%;
+    right: 6%;
+    position: absolute;
+    margin-top: 60px;
+	}
+
+	.filtericon{
+	width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    z-index: 1000;
+    
+	}
+
+
+	#ff{
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: -10;
+		}
+
+	#ff:checked + .list_bg {		/*觸發*/
+		right: 0%;
+		transition: .4s;
+	}
+
+	.list_bg{
+		width: 185px;
+		background-color: rgba(46, 44, 44, 0.92);
+		text-align: left;
+		position: fixed;
+		z-index: 14;
+		top: 0px;
+		padding-top: 80px;
+		right: -100%;
+		transition: 1s;
+		padding-top: 64px;
+		padding-bottom: 100vh;
+		margin-top: 1px;
+    	padding-left: 11px;
+	}
+
+	.searchicon{   
+		display: none;
+	}
+	.bread{			/*bread*/
+		display: none;
+	}
+	
+	.toggle-ff{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+    top: 11px;
+    right: 8px;
+	z-index: 15;
+	cursor: pointer;
+	border: 0.5px solid #757575;
+    box-sizing: border-box;
+	}
+
+	.right_content{
+		margin-top: -83px;
+	}
+
+	.products .productt {
+		height: 100%;
+		 border: 1px solid #ccc;
+		 margin-top: 20px;
+		 padding-top: 20px;
+		 padding-bottom: 20px;
+	}
+}
+
+
+
+
+.h500 img{
+	
+	margin-top: 75px;
+}
+.h500{
+	height: 500px;
+
+}
+
+.bread li{
+	list-style: none;
+	display: inline;
+	font-size: 12px;
+	padding-left: 5px;
+	letter-spacing: 1px;
+	height: 24px;
+}
+
+
+
+
+.bread li+li:before{
+	content:'> ';
+	color: #FF5965;
+}
+
+.content.fll{
+	width: 100%;
+	margin-top: -80px;
+	background-color: #fff;
+}
+
+
+.sorts{
+	color: #888;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 7px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+select{
+	border: 1px solid #e8e8eb;
+	padding: 4px 25px;
+    background: #fff;
+    text-align: left; 
+    margin: 5px;
+    width: 157px;
+    border-radius: 5px;
+}
+
+.sex{
+	padding: 4px 25px;
+}
+.filter{
+	padding: 4px 25px;
+}
+
+.list_bg .search {
+    display: inline;
+    width: 145px;
+    height: 12px;
+    font-size: 11px;
+    position: relative;
+	margin: 10px 0;
+	border-radius: 0px;
+}
+
+select {
+      /*border: 0 !important;        /*Removes border*/*/
+      -webkit-appearance: none;        /*Removes default chrome and safari style*/
+      -moz-appearance: none;          /* Removes Default Firefox style*/
+      /*background:url(../images/dropdown.png);         /*Adds background-image*/*/
+      background-position: 135px 5px;                /*Position of the background-image*/
+      width: 157px; 			/*Width of select dropdown to give space for arrow image*/
+      background-color: #fff; 
+      font-family: "微軟正黑體";   
+      overflow-y:auto;   
+
+}
+
+.list{
+	margin-top: 20px;
+}
+.list li{
+	padding: 10px;
+	color: #fff;
+}
+
+.list li:hover{
+	color: #FF5965;
+	transition: .4s;
+}
+
+
+
+
+.productt .photo{
+	width: 100%;
+	height: 209.5px;
+    overflow: hidden;
+    display: inline;
+}
+.photo img{
+	width: 100%;	
+}
+
+
+.money{
+	/*width: 165px;*/
+	margin: auto;
+	text-align: center;
+}
+.productt.fll p{
+	font-size:13px;
+	letter-spacing:1pt;
+	color:#000;
+	max-width:200px;
+	/*margin: 3px;*/
+	text-align: center;
+	line-height: 18px;
+	padding: 0 7px;
+	margin: auto;
+
+}
+sub{
+	color:#f00;
+}
+.price{
+	color:#f00;
+	font-size:39px;
+	font-weight:bold;
+	margin:3px;
+	letter-spacing: -2px;
+
+}
+/*..2{
+	font-weight: bold;
+    padding: 0px 0 20px;
+    letter-spacing: 4px;
+    line-height: 24px;
+}*/
+
+.products {
+    width: 100%;
+    background-color: #fff;
+
+}
+.page{
+	width: 200px;
+	height: 50px;
+	margin: auto;
+	padding: 23px;
+}
+ul.page-numbers{
+	height: 50px;
+	width: 107px;
+	margin: auto;
+}
+.page-numbers li{
+	display: inline;
+    margin-right: 0;
+    width: auto;
+    height: auto;
+    min-width: 0;
+    padding: 8px;
+    border: none;
+     line-height: 52px; 
+   
+}
+li .page-numbers.current {
+	
+    color: #e24c57;
+    background: none;
+}
+.page-numbers{
+    color: #373b3e;
+}
+
+.page-numbers:hover {
+    color:#e24c57;
+    transition: .4s;
+}
+.next.page-numbers{
+	padding: 8px;
+    color: #fff;
+    background: #373b3e;
+}
+
+.next.page-numbers:hover{
+    background:#ba1b21;
+	transition: .4s;
+}

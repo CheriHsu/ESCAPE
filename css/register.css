@@ -1,0 +1,86 @@
+.registerBg,.loginBg{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	display: block;
+	position: fixed;
+	z-index: 99999;
+	cursor: pointer;
+
+}
+
+.registerBox,.loginBox{
+	width: 440px;
+	height: 400px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 100000;
+	display: block;
+	background-color: #fff;
+	margin-top: -320px;
+	margin-left: -245px;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 100px 100px 340px 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.registerBox h2,.loginBox h2{
+	font-size: 28px;
+	color: #777;
+}
+
+
+input[type = "submit"].registerSendBtn,input[type = "submit"].loginSendBtn{
+	background-color: rgb(226, 97, 88);
+    color: white;
+    border: none;
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 500;
+    -webkit-border-radius: 4px;
+    border-radius: 5px;
+    padding: 10px 32px;
+    margin: 26px 5px 0 5px;
+    cursor: pointer;
+}
+.closebtn {
+    /* float: right; */
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #616161;
+    /*border-radius: 50%;
+*/}
+.closebtn:hover {
+  color: rgb(226, 97, 88);
+}
+
+
+@media screen and (max-width: 414px ) {
+	.registerBox {
+    width: 90%;
+    height: 65%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 100000;
+    display: block;
+    background-color: #fff;
+    margin-top: -60%;
+    margin-left: -45%;
+    overflow: hidden;
+    padding: 70px 30px 30px 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+

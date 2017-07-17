@@ -1,0 +1,76 @@
+/*xs*/
+@media screen and (max-width:767px){
+	.col-xs-1{ float: left; width: 8.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-2{ float: left; width: 16.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-3{ float: left; width: 25%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-4{ float: left; width: 33.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-5{ float: left; width: 41.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-6{ float: left; width: 50%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-7{ float: left; width: 58.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-8{ float: left; width: 66.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-9{ float: left; width: 75%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-10{ float: left; width: 83.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-11{ float: left; width: 91.6666669%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-xs-12{ float: left; width: 100%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.container{	width: 100%; margin: auto;    padding-right: 10px;
+    padding-left: 10px;    box-sizing: border-box;}
+}
+
+
+/*sm*/
+@media screen and (min-width:768px){
+	.col-sm-1{ float: left; width: 8.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-2{ float: left; width: 16.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-3{ float: left; width: 25%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-4{ float: left; width: 33.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-5{ float: left; width: 41.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-6{ float: left; width: 50%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-7{ float: left; width: 58.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-8{ float: left; width: 66.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-9{ float: left; width: 75%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-10{ float: left; width: 83.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-11{ float: left; width: 91.6666669%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-sm-12{ float: left; width: 100%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.container{	width: 750px; margin: 0 auto;    padding-right: 10px;
+    padding-left: 10px;    box-sizing: border-box;}
+}
+@media screen and (max-width:1199px){
+	.container{	width: 100%; margin: 0 auto;    padding-right: 10px;
+    padding-left: 10px;    box-sizing: border-box;}
+}
+/*md*/
+@media screen and (max-width:977px){
+	.col-md-1{ float: left; width: 8.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-2{ float: left; width: 16.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-3{ float: left; width: 25%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-4{ float: left; width: 33.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-5{ float: left; width: 41.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-6{ float: left; width: 50%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-7{ float: left; width: 58.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-8{ float: left; width: 66.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-9{ float: left; width: 75%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-10{ float: left; width: 83.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-11{ float: left; width: 91.6666669%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-md-12{ float: left; width: 100%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+/*	.container{	width: 660px; margin: 0 auto;    padding-right: 10px;
+    padding-left: 10px;    box-sizing: border-box;}*/
+}
+
+
+/*lg*/
+@media screen and (min-width:1200px){
+	.col-lg-1{ float: left; width: 8.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-2{ float: left; width: 16.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-3{ float: left; width: 25%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-4{ float: left; width: 33.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-5{ float: left; width: 41.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-6{ float: left; width: 50%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-7{ float: left; width: 58.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-8{ float: left; width: 66.666666%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-9{ float: left; width: 75%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-10{ float: left; width: 83.333333%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-11{ float: left; width: 91.6666669%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.col-lg-12{ float: left; width: 100%; padding-left: 10px; padding-right: 10px; box-sizing: border-box;}
+	.container{	width: 960px; margin: 0 auto;    padding-right: 10px;
+    padding-left: 10px;    box-sizing: border-box;}
+}

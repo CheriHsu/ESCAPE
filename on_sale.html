@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>::ESCAPE 逃避現實::</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 content="width=1024">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/jquery.easyfader.css">
+
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css?02">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<link rel="stylesheet" href="css/item_list.css">
+	<link rel="stylesheet" type="text/css" href="css/item.css">
+	<link rel="stylesheet" type="text/css" href="css/sale.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+
+	<script>
+
+		//google cse 搜尋後結果預設修正
+		 function change(){
+		 	document.getElementById("gsc-i-id1").setAttribute("placeholder", "商品搜尋"); 
+		 	document.getElementById("gsc-i-id2").setAttribute("placeholder", "商品搜尋");
+
+		 	document.querySelector(".gsc-adBlock").style.display = "none"; //隱藏廣告
+		 	var x = document.querySelectorAll(".gs-richsnippet-box"); 	//隱藏圖片資訊
+			var i;
+				for (i = 0; i < x.length; i++) {
+				    x[i].style.display = "none";
+				}
+		 	
+		 }
+
+		//google cse 搜尋範圍設定
+		  (function() {
+		    var cx = '001083044147874348520:2ldqxuielmo';
+		    var gcse = document.createElement('script');
+		    gcse.type = 'text/javascript';
+		    gcse.async = true;
+		    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(gcse, s);
+		  })();
+
+	</script>
+</head>
+<body onload="change();" style="overflow: visible;">
+<!-- <div class="registerBg"></div> -->
+<!-- <div class="loginBg"></div> -->
+
+<!-- login========================================= -->
+
+<section class="container login">
+	<div class="row">
+		<div class="login flr">
+			
+				<ul class="txt black">
+					<li><a id="register" href="javascript:;">註冊</a></li>
+					<li><a id="login" href="javascript:;">會員登錄<i class="fa fa-user-o" aria-hidden="true"></i>	</a></li>
+					<li><a id="checkCart" href="shoppingCart.html">購物車<i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+					<div class="search">
+						<gcse:search></gcse:search>
+						<!-- <input type="text" name="search" placeholder="商品搜尋..." class="search"> -->
+						<!-- <a href="javascript:;">
+						<i class="fa fa-search" aria-hidden="true"></i></a> -->
+					</div>
+				</ul>
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+<!-- nav========================================= -->
+
+<nav class="nav">
+	<div class="w960">
+
+			<input type="checkbox" name="" id="mm">
+			
+			
+			<div class="col-xs-12 menubg">
+				<div class="box">
+						<a href="index.html">
+						<img class="logo" src="images/logo.png">
+						</a>
+				</div>
+
+				<label for="mm" class="toggle-btn" for="">
+					<span class="bar1"></span>
+					<span class="bar2"></span>
+					<span class="bar3"></span>
+				</label>
+				
+			</div>	
+
+			<ul class="mu">
+				<li class="searchli">
+					<gcse:search></gcse:search>
+					<!-- <input type="text" name="search" placeholder="商品搜尋..." class="search">
+					<a href="javascript:;">
+					<i class="fa fa-search" aria-hidden="true"></i></a> -->
+					
+				</li>
+
+					<li class="btn1">
+					<a href="javascript:;" id="btn1a">運動商品</a>
+						<ul class="menulist">
+							<li><a href="skate.html" class="btnfixed">滑板</a></li>
+							<li><a href="javascript:;" class="btnfixed">舞蹈</a></li>
+							<li><a href="javascript:;" class="btnfixed">滑雪</a></li>
+							<li><a href="javascript:;" class="btnfixed">健行</a></li>
+							<li><a href="javascript:;" class="btnfixed">沙灘</a></li>
+							<li><a href="javascript:;" class="btnfixed">衝浪</a></li>
+						</ul>
+					</li>
+				<a href="on_sale.html" class="btn2"><li>超值好康</li></a>
+				<a href="plan.html" class="btn3"><li >逃避計畫</li></a>
+				<a href="about.html" class="btn4"><li >關於ESCAPE</li></a>
+				<li class="hiddenbtn">
+				<a href="javascript:;"><div class="btn5">
+					會員登入<i class="fa fa-user-o" aria-hidden="true"></i>
+				</div></a>
+				<a id="checkCart" href="shoppingCart.html"><div class="btn6">
+					購物車<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+				</div></a>
+				</li>
+			</ul>
+			
+			
+			<div class="clear"></div>
+			
+	</div>
+
+</nav>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+
+<!-- banner========================================= -->
+
+	
+
+<div class="banner3">
+	
+	<div id="dowebok" class="fader">
+	    <img class="slide" src="images/sale01.jpg">
+	    <img class="slide" src="images/sale02.jpg">
+	    <img class="slide" src="images/sale3.jpg">
+	    <img class="slide" src="images/sale02.jpg">
+	    <div class="fader_controls">
+		    <div class="page prev" data-target="prev">&lsaquo;</div>
+		    <div class="page next" data-target="next">&rsaquo;</div>
+		</div>
+	</div>
+		
+</div>
+<!-- content========================================= -->
+
+<div class="container ">
+	<div class="box related fll costdown">
+
+		<hgroup class="relate b">
+			<h4><span>滑雪用品</span> / 限時特惠</h4>
+		</hgroup>
+		<section class="item products">
+
+			<div class="col-xs-6 col-sm-3">
+				<a href="item/a.html">
+					<div class="productt fll">
+						<div class="photo">
+						<img src="images/large/jacket_a_01.jpg">
+						</div>
+						<p>連帽防風衣夾克</p>
+						<div class="money">
+							<sub>$</sub>
+							<span class="price">5775</span>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-3">
+				<a href="item/b.html">
+					<div class="productt fll">
+						<div class="photo">
+						<img src="images/large/jacket_b_01.jpg">
+						</div>
+						<p>連帽防風衣夾克</p>
+						<div class="money">
+							<sub>$</sub>
+							<span class="price">5800</span>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-3">
+				<a href="item/i.html">
+					<div class="productt fll">
+						<div class="photo">
+						<img src="images/large/jacket_i_01.jpg">
+						</div>
+						<p>連帽防風衣</p>
+						<div class="money">
+							<sub>$</sub>
+							<span class="price">4725</span>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-3">
+				<a href="item/d.html">
+					<div class="productt fll">
+						<div class="photo">
+						<img src="images/large/jacket_d_01.jpg">
+						</div>
+						<p>連帽防風衣夾克</p>
+						<div class="money">
+							<sub>$</sub>
+							<span class="price">4750</span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</section>			
+		<div class="clear"></div>
+
+		<hgroup class="relate r">
+			<h4><span>防水外套</span> / 限時79折</h4>
+		</hgroup>
+		<section class="item products">
+
+			<div class="col-xs-6 col-sm-3">
+				<a href="item.html">
+					<div class="productt fll">
+						<div class="photo">
+						<img src="images/jacket/m_jacket05.jpg">
+						</div>
+						<p>連帽防風衣夾克</p>
+						<div class="money">
+							<sub>$</sub>
+							<span class="price">5775</span>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-3">
+				<a href="item.html">
+					<div class="productt fll">
+						<div class="photo">
+						<img src="images/jacket/m_jacket06.jpg">
+						</div>
+						<p>連帽防風衣夾克</p>
+						<div class="money">
+							<sub>$</sub>
+							<span class="price">5800</span>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-3">
+				<a href="item.html">
+					<div class="productt fll">
+						<div class="photo">
+						<img src="images/jacket/m_jacket07.jpg">
+						</div>
+						<p>連帽防風衣</p>
+						<div class="money">
+							<sub>$</sub>
+							<span class="price">4725</span>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xs-6 col-sm-3">
+				<a href="item.html">
+					<div class="productt fll">
+						<div class="photo">
+						<img src="images/jacket/m_jacket08.jpg">
+						</div>
+						<p>連帽防風衣夾克</p>
+						<div class="money">
+							<sub>$</sub>
+							<span class="price">4750</span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</section>
+			
+	</div>		
+</div>
+
+
+<!-- footer========================================= -->
+<footer class="box footer fll">
+	<div class="w960">
+		<div class="box">
+				<div class="c349118">
+				<a href="index.html">
+				<img class="logo chinese" src="images/logo_ch.png">
+				</a></div>
+		</div>
+	
+		<div class="smallnav">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4 col-sm-3 link fll">
+						<h5>運動商品</h5>
+						<div class="ma">
+							<div class="stree link fll">
+								<ul>
+									<!-- <li class="hj">街頭運動</li> -->
+									<li><a href="skate.html">滑板</a></li>
+									<li><a href="javascript:;">舞蹈</a></li>
+								</ul>
+							</div>
+											
+							<div class="outdoo link fll">
+								<ul>
+									<!-- <li class="hj">戶外運動</li> -->
+									<li><a href="javascript:;">滑雪</a></li>
+									<li><a href="javascript:;">健行</a></li>
+								</ul>	
+							</div>
+											
+							<div class="water link fll">
+								<ul>
+									<!-- <li class="hj">水上運動</li> -->
+									<li><a href="javascript:;">沙灘</a></li>
+									<li><a href="javascript:;">衝浪</a></li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				
+					<div class="col-xs-4 col-sm-2 sales link fll">
+						<h5><a href="on_sale.html">超值好康</a></h5>
+						<h5><a href="plan.html">逃避計畫</a></h5>
+					</div>
+
+					<div class="col-xs-4 col-sm-2 about link fll">
+						<h5><a href="about.html">關於ESCAPE</a></h5>
+						<ul>
+							<li><a href="about.html#branch">門市資訊</a></li>
+							<li><a href="about.html#contacts">聯絡我們</a></li>
+						</ul>
+					</div>
+
+					<div class="col-sm-1 space"></div>
+
+					<div class="col-xs-4 col-sm-2 fb link fll y">
+						<h5>加入社群</h5>
+						<a href="javascript:;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+						<a href="javascript:;"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+					
+					<div class="col-xs-4 col-sm-2 service link fll y">
+						<p><a href="javascript:;">會員權益</a></p>
+						<p><a href="javascript:;">購物流程</a></p>
+						<p><a href="javascript:;">常見問題</a></p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</footer>
+
+							
+
+
+
+
+
+
+
+
+
+
+
+<!-- ============================================================ -->
+
+<script src="js/mobileToggleBtn.js"></script>
+<script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery.easyfader.min.js"></script>
+<script>
+	$(function() {
+		$('#dowebok').easyFader();
+	});
+</script>
+
+
+</body>
+</html>
