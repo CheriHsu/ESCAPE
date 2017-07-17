@@ -49,29 +49,30 @@
     z-index: 1; 
 }
 
-/*.focusPhoto:link.focusPhoto:before{
+.focusPhoto:link .focusPhoto:before{
 	content: url(../images/zoomIn.svg);
 	position: absolute;
 	width: 76px;
     height: 91px;
     background-color: rgba(0,0,0,0.6);
     top: 0;
-    left: 91px;
+    left: 0px;
     transition: .5s;
-     z-index: 1; 
+    z-index: 1;
+    opacity: 0; 
 
-}*/
-
+}
 .focusPhoto:hover.focusPhoto:before{
-	
 	content: url(../images/zoomIn.svg);
 	position: absolute;
 	width: 76px;
     height: 91px;
+    background-color: rgba(0,0,0,0.6);
     top: 0;
     left: 0px;
-	background-color: rgba(0,0,0,0.6);
-	transition: .5s;
+    transition: .5s;
+    z-index: 1;
+    opacity: 1; 
 
 }
 
@@ -443,7 +444,7 @@ strong{ font-weight: bold; }
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.7); 
 }
 /*mobile*/
-@media screen and (max-width:767px) and (max-width:977px){
+@media screen and (min-width:767px) and (max-width:977px){
 	.row2 {
     	width: 98%;
 	}
@@ -492,14 +493,15 @@ strong{ font-weight: bold; }
 	.color span,.size span,.amount span{
 		display: block;
 	}
-	.focusPhoto:hover.focusPhoto:before{
+/*	.focusPhoto:hover.focusPhoto:before{
 		content: '';
 		position: absolute;
 		background-color: rgba(0,0,0,0);
+		opacity: 0;
 
-	}
+	}*/
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
 	.padding10 {  
     	box-shadow: 0px 0px 10px rgba(0,0,0,0);
 	}
@@ -508,12 +510,24 @@ strong{ font-weight: bold; }
 		padding-right: 10px;	
 		padding-left: 10px;	
 	}
+	.focusPhoto:link .focusPhoto:before{
+	content: url(../images/zoomIn.svg);
+	position: absolute;
+	width: 76px;
+    height: 91px;
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0px;
+    transition: .5s;
+    z-index: 1;
+    opacity: 0; 
 
-
+	}
 	.focusPhoto:hover.focusPhoto:before{
 		content: '';
 		position: absolute;
 		background-color: rgba(0,0,0,0);
+		opacity: 0;
 
 	}
 
