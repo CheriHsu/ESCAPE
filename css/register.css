@@ -27,7 +27,31 @@
     text-align: center;
 }
 
+.loginForm input[type=text]{
+    border: 1px solid #aaa;
+    padding: 3px;
+}
+@media screen and (max-width: 767px){
+    
+    .registerBox, .loginBox {
+        width: 312px;
+        height: 360px;
+        position: fixed;
+        top: 60%;
+        left: 75%;
+        z-index: 100000;
+        display: block;
+        background-color: #fff;
+        margin-top: -320px;
+        margin-left: -245px;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 100px 50px 340px 50px;
+        box-sizing: border-box;
+        text-align: center;
+    }
 
+}
 .registerBox h2,.loginBox h2{
 	font-size: 28px;
 	color: #777;

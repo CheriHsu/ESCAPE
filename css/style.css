@@ -101,7 +101,10 @@ a{
 	transition: 0.2s;
 }
 
-
+#registerLink{
+	color: blue;
+	text-decoration: underline;
+}
 
 .valign{ 
 	vertical-align: -4px;
@@ -1969,7 +1972,8 @@ h5{
 	/*width: 100%;*/
 	}
 
+	
 
-    }
+    
 }
 
